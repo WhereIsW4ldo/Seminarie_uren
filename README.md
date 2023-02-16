@@ -15,6 +15,7 @@ Totaal benodigde uren: 14
 | seminarie 09/12/22 | 1 |
 | workshop nexios 30/11 | 2 |
 | advent of code | 5 |
+| Person detection on low cost MCU | 1 |
 
 
 
