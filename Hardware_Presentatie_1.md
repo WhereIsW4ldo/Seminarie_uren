@@ -1,4 +1,4 @@
-# Hardware Presentatie 1
+# Hardware Presentatie 1: Apple Silicon
 
 ## Waarom eigenlijk?
 
