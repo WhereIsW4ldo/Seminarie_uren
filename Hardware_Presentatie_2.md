@@ -55,3 +55,4 @@ Tertiary storage:
 | Datum | Linkje voor de dag/vorige dag |
 | ----- | ----------------------------- |
 | 09/04/23 | [Wikipedia Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage#Hierarchy_of_storage) |
+|          | [Wikipedia Hard disk drive](https://en.wikipedia.org/wiki/Hard_disk_drive) |
