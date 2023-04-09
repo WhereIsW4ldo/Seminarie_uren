@@ -43,6 +43,13 @@ Tertiary storage:
    1. Random access: gegeven een random address (op het device), krijg de data dat aan het address hangt.
 
 
+## HDD
+
+
+## SSD
+
+
+
 ## Logboek:
 
 | Datum | Linkje voor de dag/vorige dag |
