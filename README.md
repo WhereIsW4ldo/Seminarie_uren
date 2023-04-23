@@ -2,7 +2,7 @@
 
 Totaal nodige uren: 15
 
-Totaal benodigde uren: 14
+Totaal benodigde uren: 15
 
 | activiteit | duratie |
 |------------|---------|
