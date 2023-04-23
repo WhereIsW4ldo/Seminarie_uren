@@ -44,7 +44,46 @@ Tertiary storage:
 
 
 ## HDD
+### Disk:
+Materie:
+* Aluminium Magnesium alloy
+* Magnetische functionele laag:
+   * 120nm dik
+   * Cobalt Chromium Tantalum Alloy
+   * verschillende regios die individueel magnetiseerbaar zijn
+* brushless DC-motor draait disk rond op 7200rpm (soms ook 5400rpm)
 
+Werking:
+* opgedeeld in concentrische cirkels (meer dan 500000 tracks)
+* elke track opgedeeld in sectors (vakjes)
+* preamble in sector (voor snelheid en grootte bit data)
+* adress (voor te weten welke sector gefocust is)
+* data (4KB per sector)
+* ECC (verificatie van data)
+* kleine gap tussen sectoren
+
+### Arm:
+Materie:
+* 2 armen
+* slider
+   * zorgt voor afstand of geen afstand tussen disk en head
+   * 15nm is afstand
+* read/write head
+* motor op einde van arm zorgt voor snelle bewegingen (20/sec)
+
+Werking:
+* read/write head geeft magnetische zin aan en over aan stukje van sector (1 bit) (ongeveer 90nm x 100nm x 120nm)
+* magnetisch veld gecreerd en gechaneld naar write head
+* read head leest magnetische zin van bit
+* 0 = geen verandering van cel tot volgende
+* 1 = verandering van cel tot volgende
+
+
+### Nieuwe veranderingen
+* Orientatie cellen horizontaal naar verticaal (rond 2010) (meer cellen per oppervlakte)
+* Shingled Magnetic Recording: (rond 2020) geen vrije ruimte, cellen overlappen licht (kleine read head waardoor deze goed gelezen kan worden ondanks overlap)
+* CMR: 90nm breed met vrije ruimte tussen
+* Heat Assisted Magnetic Recording: warm cel op met kleine laser om switch makkelijker te maken
 
 ## SSD
 
@@ -56,3 +95,4 @@ Tertiary storage:
 | ----- | ----------------------------- |
 | 09/04/23 | [Wikipedia Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage#Hierarchy_of_storage) |
 |          | [Wikipedia Hard disk drive](https://en.wikipedia.org/wiki/Hard_disk_drive) |
+| 23/04/23 | [Video interne werking HDD](https://www.youtube.com/watch?v=wtdnatmVdIg) |
