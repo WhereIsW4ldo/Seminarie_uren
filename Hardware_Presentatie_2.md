@@ -87,8 +87,28 @@ Werking:
 
 ## SSD
 
+* Charge Trap Flash Memory Cell: 
+   * Charge trap word opgevuld met meer of minder electronen (zorgt voor verschillende waarden) (tot 16 waardes 4 bit)
+   * lezen: meet electron-level van de charge-trap
+   * clearen: alle electronen eruit forceren door negatieve spanning
+   * VNAND: vertical NAND (heeft 10 cellen) (1 String)
+   * 1 cell per keer geactiveerd (lezen of schrijven)
+   * lezen en schrijven gaan van en naar Bitline om informatie door te geven
+   * 1 Row = 32 Stings
+   * Control gates voor alle equivalente cellen in verschillende Strings zijn gelijk
+   * 1 Block = 6 Rows
+   * 1 Column = 2 Blocks
+   * bitlines shared over equivalente Strings
+   * bitline selectors = selecteren welke bitline actief is
+   * page buffer om telkens page bij page op te slaan (bufferen)
 
-
+* Tegenwoordig: 
+   * 1 String = 96-136 lagen hoog
+   * 1 Row = 30.000 - 60.000 Strings
+   * 1 Block = 4-8 Rows
+   * 4000 - 6000 blocks * 2
+   * 8 keren deze chip kopieren stacken
+   * 
 ## Logboek:
 
 | Datum | Linkje voor de dag/vorige dag |
