@@ -1,5 +1,9 @@
 # Hardware presentatie 2: Opslag (HDD/SSD)
 
+## Feedback 24/04/23
+* mogelijks switchen presentatie (iemand ander pres geven)
+* presentatie + sidenotes moet voldoende inhoud bevatten (niet uit het hoofd lullen)
+
 ## Aanpak:
 
 * Opslagmogelijkheden grotendeels (HDD en SSD)
@@ -44,6 +48,12 @@ Tertiary storage:
 
 
 ## HDD
+
+### Connectoren:
+* PATA
+* SATA
+* SCSI
+
 ### Disk:
 Materie:
 * Aluminium Magnesium alloy
@@ -108,7 +118,8 @@ Werking:
    * 1 Block = 4-8 Rows
    * 4000 - 6000 blocks * 2
    * 8 keren deze chip kopieren stacken
-   * 
+
+
 ## Logboek:
 
 | Datum | Linkje voor de dag/vorige dag |
@@ -116,3 +127,5 @@ Werking:
 | 09/04/23 | [Wikipedia Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage#Hierarchy_of_storage) |
 |          | [Wikipedia Hard disk drive](https://en.wikipedia.org/wiki/Hard_disk_drive) |
 | 23/04/23 | [Video interne werking HDD](https://www.youtube.com/watch?v=wtdnatmVdIg) |
+|          | [extra informatie HDD](https://turbofuture.com/computers/Types-of-Computer-Hard-Disk-Drives) |
+
