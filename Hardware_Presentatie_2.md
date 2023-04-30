@@ -97,8 +97,14 @@ Werking:
 
 ## SSD
 
+Verschillende form factors:
+* 2.5 inch drive
+* PCIe NVMe drive
+
 * Charge Trap Flash Memory Cell: 
    * Charge trap word opgevuld met meer of minder electronen (zorgt voor verschillende waarden) (tot 16 waardes 4 bit)
+   * aantal verschillende waarden; hoe duurder, hoe meer levels; hoe goedkoper, hoe minder levels
+   * minder levels => sneller, meer reliable, duurder
    * lezen: meet electron-level van de charge-trap
    * clearen: alle electronen eruit forceren door negatieve spanning
    * VNAND: vertical NAND (heeft 10 cellen) (1 String)
@@ -119,6 +125,26 @@ Werking:
    * 4000 - 6000 blocks * 2
    * 8 keren deze chip kopieren stacken
 
+Speciale gevallen:
+* intel Optane: in plaats van electronen opslagen, resistance veranderen (en transistoren om cel te selecteren)
+
+## Connectoren
+
+Connectoren zijn heel verschillend met kleine overlap tussen SSD en HDD's.
+* SATA (Serial AT Attachment) connector 
+   * Hot plug: in combinatie met hot plugging capable devices mogelijk; (un)plug tijdens power aanstaat
+   * 3 revisies; hogere snelheid
+
+### SSD connectoren
+
+PCIe - NVMe connector: heeft PCIe lanes nodig van processor (gelimiteerd), daardoor enorm snel
+
+
+## Hybrid systemen
+
+SSHDs: gebruik kleinere SSD als cache voor grotere HDD
+Ook mogelijk softwarematig met SSD en HDD.
+
 
 ## Logboek:
 
@@ -128,4 +154,5 @@ Werking:
 |          | [Wikipedia Hard disk drive](https://en.wikipedia.org/wiki/Hard_disk_drive) |
 | 23/04/23 | [Video interne werking HDD](https://www.youtube.com/watch?v=wtdnatmVdIg) |
 |          | [extra informatie HDD](https://turbofuture.com/computers/Types-of-Computer-Hard-Disk-Drives) |
-
+| 30/04/23 | [info IBM opslag](https://www.ibm.com/topics/solid-state-drives) |
+|          | [optane info](https://www.eetimes.com/intel-micron-launch-bulk-switching-reram/) |
