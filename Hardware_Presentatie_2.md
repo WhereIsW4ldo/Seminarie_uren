@@ -36,7 +36,7 @@ Tertiary storage:
 1. backup van weinig gebruikte data
 2. niet zoveel gebruikt
    
-## Onderwerp: Eigenschappen
+## Eigenschappen
 
 1. Niet volatile:
    1. houd data bij bij spanningsverlies
@@ -50,9 +50,9 @@ Tertiary storage:
 ## HDD
 
 ### Connectoren:
-* PATA
-* SATA
-* SCSI
+* PATA: Parallel Advanced Technology Attachment; 
+* SATA: Serial ATA; 
+* SCSI: 
 
 ### Disk:
 Materie:
@@ -153,6 +153,10 @@ Ook mogelijk softwarematig met SSD en HDD.
 | 09/04/23 | [Wikipedia Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage#Hierarchy_of_storage) |
 |          | [Wikipedia Hard disk drive](https://en.wikipedia.org/wiki/Hard_disk_drive) |
 | 23/04/23 | [Video interne werking HDD](https://www.youtube.com/watch?v=wtdnatmVdIg) |
+|          | [Video interne werking SSD](https://www.youtube.com/watch?v=5Mh3o886qpg) |
 |          | [extra informatie HDD](https://turbofuture.com/computers/Types-of-Computer-Hard-Disk-Drives) |
 | 30/04/23 | [info IBM opslag](https://www.ibm.com/topics/solid-state-drives) |
 |          | [optane info](https://www.eetimes.com/intel-micron-launch-bulk-switching-reram/) |
+| 01/05/23 | [internal image HDD](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Ftechnology%2Fhard-disk&psig=AOvVaw00LjG2OoyPNF7U6eCmlEZV&ust=1683054906350000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCdyqDq1P4CFQAAAAAdAAAAABAe) |
+|          | [components SSD](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ekwb.com%2Fblog%2Fssd-cooling%2F&psig=AOvVaw3ayIvHk7r4PwUrhkznWzg4&ust=1683055221498000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODK2Lbr1P4CFQAAAAAdAAAAABAT) |
+|          | [nice overview SSD + HDD](https://www.extremetech.com/gaming/210492-extremetech-explains-how-do-ssds-work) |
