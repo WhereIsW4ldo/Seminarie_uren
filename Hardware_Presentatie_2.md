@@ -77,12 +77,12 @@ Materie:
 * 2 armen
 * slider
    * zorgt voor afstand of geen afstand tussen disk en head
-   * 15nm is afstand
+   * 15nm is afstand; 5nm is read/write
 * read/write head
 * motor op einde van arm zorgt voor snelle bewegingen (20/sec)
 
 Werking:
-* read/write head geeft magnetische zin aan en over aan stukje van sector (1 bit) (ongeveer 90nm x 100nm x 120nm)
+* read/write head geeft magnetische zin aan over aan stukje van sector (1 bit) (ongeveer 90nm x 100nm x 120nm)
 * magnetisch veld gecreerd en gechaneld naar write head
 * read head leest magnetische zin van bit
 * 0 = geen verandering van cel tot volgende
@@ -124,6 +124,9 @@ Verschillende form factors:
    * 1 Block = 4-8 Rows
    * 4000 - 6000 blocks * 2
    * 8 keren deze chip kopieren stacken
+
+* Evolutie:
+   * Single LC -> Quad LC; minder kost/gb maar trager
 
 Speciale gevallen:
 * intel Optane: in plaats van electronen opslagen, resistance veranderen (en transistoren om cel te selecteren)
