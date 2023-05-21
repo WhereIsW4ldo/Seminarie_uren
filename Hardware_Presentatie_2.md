@@ -163,3 +163,7 @@ Ook mogelijk softwarematig met SSD en HDD.
 | 01/05/23 | [internal image HDD](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Ftechnology%2Fhard-disk&psig=AOvVaw00LjG2OoyPNF7U6eCmlEZV&ust=1683054906350000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCdyqDq1P4CFQAAAAAdAAAAABAe) |
 |          | [components SSD](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ekwb.com%2Fblog%2Fssd-cooling%2F&psig=AOvVaw3ayIvHk7r4PwUrhkznWzg4&ust=1683055221498000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODK2Lbr1P4CFQAAAAAdAAAAABAT) |
 |          | [nice overview SSD + HDD](https://www.extremetech.com/gaming/210492-extremetech-explains-how-do-ssds-work) |
+| 18/05/23 | [table NAND](https://www.theregister.com/2016/07/28/qlc_flash_primer/) |
+|          | [NAND vs NOR](https://www.techtarget.com/searchstorage/definition/NAND-flash-memory) |
+|          | [illustration NAND vs NOR](https://www.youtube.com/watch?v=r2KaVfSH884)|
+|          | [more optane](https://en.wikipedia.org/wiki/3D_XPoint)|
